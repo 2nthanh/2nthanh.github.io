@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
+
+body {
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-box {
+  width: 720px;
+  height:550px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: rgba(0,0,0,0.5) 0px 46px 113px -34px;
+  padding: 5px;
+}
+
+.product-img {
+  width: 700px;
+  height: 360px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.product-info {
+  width: 720px;
+  height: 65px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.product-info p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  color: white;
+  opacity: 0.8;
+}
+
+.product-info p:hover {
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.download {
+  width: 175px;
+  height: 35px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #4db374;
+  border-radius: 25px;
+  border: none;
+  margin: 20px 20px;
+}
+
+.download:hover {
+  background-color: #568F6C;
+  cursor: pointer;
+}
